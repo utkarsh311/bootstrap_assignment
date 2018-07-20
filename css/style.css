@@ -1,0 +1,30 @@
+.body{
+    background-color:lightcyan;
+    background-image: url("../images/bg.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.btn{
+    font-size: 36px;
+}
+.para{
+    text-decoration: underline;
+}
+.about
+{
+    font-size:22px;
+    color:darkslategray;
+    font-family: 'Bilbo Swash Caps';
+}
+.content{
+    font-family: 'Diplomata SC';
+    font-size: 20px;
+    color:darkblue;
+}
+.footer{
+    font-size:16px;
+    
+}
+.jumbotoron{
+ background-color: purple;
+}

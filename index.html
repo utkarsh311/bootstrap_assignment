@@ -1,0 +1,241 @@
+<!--WEBPAGE USING BOOTSTRAP4-->
+<!doctype html>
+<html>
+<head>
+    <title>
+        bootstrap assignment
+    </title>
+    <!--link to use google font-->
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Butcherman' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Diplomata SC' rel='stylesheet'>
+
+    <!--links to different css and bootstrap pages-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</head>
+<!--body starts here-->
+<body class="body">
+    <!--navbar starts here-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top">
+                  <img src="images/logo.jpeg" height="90" width="400"/>
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item mr-4">
+                                <button class="btn btn-outline-info">Home</button>
+                          </li>
+                          <li class="nav-item mr-4">
+                                <button class="btn btn-outline-info">News</button>
+                          </li>
+                          <li class="nav-item mr-4">
+                                <button class="btn btn-outline-info">Gallery</button>
+                          </li class="nav-item">
+                          <li class="nav-item mr-4">
+                                <button class="btn btn-outline-info">Contact</button>
+                          </li>
+                      </ul>
+                      <!--search form starts here-->
+                      <form class="form-inline my-2 my-lg-0">
+                        <input type="text" class="form-control mr-sm-2" placeholder="search">
+                        <button class="btn btn-danger my-2 my-sm-0">Search</button>
+                      </form>
+                   </div>
+         </nav>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+        <!--nav  bar ends here-->
+
+        <!--jumbotoron and modal used together.starts here-->
+          <div class="jumbotron text-capitalize bg-success">
+             <h1 class="font-weight-bold">watch live action at eden garden!
+                <span class="text-danger">hurry up!</span>
+               <span>
+                <button class="btn btn-info btn-danger" data-toggle="modal" data-target="#loginModal">Register</button>
+                <!--modal-->
+               <div class="modal" id="loginModal">
+                 <div class="modal-dialog">
+                  <div class="modal-content">
+                   <div class="modal-header">
+                      <h5 class="modal-title">Register</h5>
+                      <button class="close" data-dismiss="modal">&times;</button>
+                   </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                         <label>Full Name</label>
+                         <input type="text" placeholder="Full Name" class="form-control">
+                       </div>
+                      <div class="form-group">
+                         <label>contact-Number</label>
+                         <input type="text" placeholder="mobile" class="form-control">
+                      </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                 <button class="btn btn-primary" data-dismiss="modal">GO!</button>
+              </div>
+           </div>
+         </div>
+      </div>
+
+        </span>
+        </h1>      
+        <p class="content">Love the game,but did not get a chance to be in the stadium.Dont worry!We provide you a chance to catch the action live at
+        eden gardens.<br>just participate now.
+        </p>
+     </div>
+         <!--jumbotoron end-->
+
+        <!--first grid starts here-->
+        <div class="row mt-5">
+                <div class="col-sm-4 col-md-5 col-lg-6 col-xl-3">
+                      <img src="images/gg.jpeg" width="350" height="300"/>
+                      <br>
+                      <span class="about">Gautam Gambhir has been one of the most successful openers of the indian team.
+                            He will be leading kkr in the next IPL.
+                      </span>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                   <img src="images/coach.jpeg" width="350" height="300"/>
+                    <br>
+                    <span class="about">
+                      One of the best allrounder inm cricketing world will be hepling kkr alongside with other great coaches,
+                      it will be intesting to seehow he guides our team.
+                    </span>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-3 col-xl-6" >
+                       
+                    <img src="images/squad.jpg" width="750" height="400"/>
+                    
+                </div>
+                  
+          </div>
+          <br>
+          <br>
+        <!--first grid ends here-->
+
+        <!-- start of Slider  -->
+        <div id="slider3" class="carousel slide mb-5" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#slider3" data-slide-to="0"></li>
+            <li data-target="#slider3" data-slide-to="1"></li>
+            <li data-target="#slider3" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="images/slider1.jpg" height="10" width="100%" alt="First Slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="images/slider2.jpg" height="10" width="100%" alt="Second Slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="images/slider3.jpeg" height="100" width="100%" alt="Third Slide">
+            </div>
+          </div>
+          <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a href="#slider3" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!--slider ends-->
+        <br>
+        <!--second grid-->
+        <div class="row mt-5">
+            <div class="col-sm-4 col-md-8 col-lg-6 col-xl-5">
+                <!--google map-->
+              <h1 class="display-4 text-uppercase">Locate us</h1>
+              <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kolkata&t=&z=13&ie=UTF8&iwloc=&output=embed" >
+              </iframe>
+
+            </div>
+
+            <div class="col-sm-8 col-md-4 col-lg-6 col-xl-7">
+              <h1 class="text-uppercase text-success">Points table</h1>
+              <!--points table-->
+                <table class="table table-striped ">
+                    <thead>
+                        <tr>
+                            <th>sl no</th>
+                            <th>Team</th>
+                            <th>Points</th>
+                            <th>NRR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-dark">
+                            <th scope="row">1</th>
+                            <td>KKR</td>
+                            <td>12</td>
+                            <td>+0.43</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>DD</td>
+                            <td>10</td>
+                            <td>+0.08</td>
+                        </tr>
+                        <tr  class="bg-dark">
+                            <th scope="row">3</th>
+                            <td>RCB</td>
+                            <td>8</td>
+                            <td>-0.03</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>CSK</td>
+                            <td>8</td>
+                            <td>-0.07</td>
+                        </tr>
+                        <tr  class="bg-dark">
+                            <th scope="row">5</th>
+                            <td>MI</td>
+                            <td>6</td>
+                            <td>-0.17</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>SRH</td>
+                            <td>6</td>
+                            <td>-0.23</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+         </div>
+         <!--2ND GRID ENDS HERE-->
+        <!--start footer-->
+        <footer class="footer text-dark text-capitalize bg-secondary">
+          <h3>official partners:</h3>
+            <span class="mx-5"><img src="images/nokia.jpeg"height="80" width="170"></span>
+            <span class="mx-4"><img src="images/jio.jpeg"height="80" width="170"></span>
+            <span class="mx-4"><img src="images/samsung.png"height="80" width="170"></span>
+            <span class="mx-4"><img src="images/kf.jpeg"height="80" width="170"></span>
+            <span class="mx-4"><img src="images/redfm.png"height="80" width="170"></span>
+        </footer>
+        <br>
+        <br>
+        <br>
+        <!--second fixed footer-->
+        <footer class="text-primary bg-warning fixed-bottom text-uppercase"> 
+            <p>address:new area,road no4,salt lake,kolkata,800064
+              <br>
+              contact no:8290186349 | email:abc_123@gmail.com
+            </p>
+        </footer>
+       
+</body>
+</html>
