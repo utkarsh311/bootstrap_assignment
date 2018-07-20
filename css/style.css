@@ -1,3 +1,28 @@
+
+p { font-size: 15px; }
+
+@media screen and (min-width: 480px) {
+  p { font-size: 72px; }
+}
+@media screen and (min-width: 640px) {
+  p { font-size: 56px; }
+}
+@media screen and (min-width: 1024px) {
+  p { font-size: 19px; }
+}
+
+.response{ font-size: 18px; }
+
+@media screen and (min-width: 480px) {
+    .response{ font-size: 72px; }
+}
+@media screen and (min-width: 640px) {
+    .response { font-size: 66px; }
+}
+@media screen and (min-width: 1024px) {
+    .response { font-size: 19px; }
+}
+
 .body{
     background-color:lightcyan;
     background-image: url("../images/bg.jpeg");
@@ -7,24 +32,12 @@
 .btn{
     font-size: 36px;
 }
-.para{
-    text-decoration: underline;
-}
 .about
 {
-    font-size:22px;
     color:darkslategray;
     font-family: 'Bilbo Swash Caps';
-}
-.content{
-    font-family: 'Diplomata SC';
-    font-size: 20px;
-    color:darkblue;
 }
 .footer{
     font-size:16px;
     
-}
-.jumbotoron{
- background-color: purple;
 }
